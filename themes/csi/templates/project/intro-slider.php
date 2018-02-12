@@ -6,7 +6,7 @@ if($backdrop_color == 'custom')
 
 ?>
 
-<div class="position-relative backdrop backdrop-<?= $backdrop_color; ?>" <?= $backdrop_custom; ?>>
+<div class="mb-4 position-relative backdrop backdrop-<?= $backdrop_color; ?>" <?= $backdrop_custom; ?>>
 
 	<div class="d-inline-block slider w-100">
 		<div class="slides">

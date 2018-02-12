@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 col-md-2 col-lg-3 branding">
-                <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?= print_svg('logo-small'); ?></a>
+                <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?= print_svg('logo'); ?></a>
             </div>
 
             <nav class="d-none d-md-flex col-md-10 col-lg-9 pt-1 font-family-sans text-uppercase nav-primary">

@@ -18,6 +18,8 @@ $project_includes = [
     'ajax-forms.php',               //AJAX-ify the login/register forms
     'obfuscate-email.php',
     'admin-customization.php',      //Custom styles on Admin
+
+    '_csi/functions.php'
 ];
 
 foreach ($project_includes as $file) {
