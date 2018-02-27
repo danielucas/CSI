@@ -7,11 +7,11 @@ if($project_color == 'custom') {
 }
 
 ?>
-<article <?php post_class('row mt-2'); ?>>
+<article <?php post_class('row mt-2 mb-8'); ?>>
 	<header class="col-12 col-md-5 col-lg-4 order-2 order-md-1 content-project-header">
 		<div class="mt-md-4 mt-1 mb-1 p-1 text-<?= $project_color; ?>" <?= $project_color_custom; ?>>
 			<h2 class="display-4 mb-2 font-weight-bold text-uppercase content-project-title"><?php the_title(); ?></h2>
-			<p class="h4 m-0 font-weight-light content-project-excerpt"><?= get_the_excerpt(); ?></p>
+			<p class="h4 m-0 pr-2 font-weight-light content-project-excerpt"><?= get_the_excerpt(); ?></p>
 		</div>
 		<a href="<?php the_permalink(); ?>" class="btn btn-medium text-uppercase ml-md-1">Learn More &rarr;</a>
 	</header>

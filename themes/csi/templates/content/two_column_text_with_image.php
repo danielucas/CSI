@@ -8,6 +8,12 @@ if($backdrop_color == 'custom')
 
 <div class="row page-content page-content-two-column py-2 mb-9 position-relative backdrop backdrop-text-col backdrop-<?= $backdrop_color; ?>" <?= $backdrop_custom; ?>>
 	
+	<?php if(get_sub_field('subtitle')): ?>
+		<div class="col-11 offset-lg-1">
+			<h6 class="my-md-1 text-white text-subtitle"><?= get_sub_field('subtitle'); ?></h6>		
+		</div>
+	<?php endif; ?>
+
 	<div class="col-12 col-lg-4 offset-lg-1 mt-lg-1 text-white two-column-column-one">
 		<?php the_sub_field('text_one'); ?>
 	</div>

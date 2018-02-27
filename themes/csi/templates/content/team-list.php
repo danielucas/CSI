@@ -6,11 +6,11 @@ if($teamTerms):
 
 	foreach($teamTerms as $term): ?>
 
-		<ul class="row list-unstyled team-list">
+		<ul class="row mb-4 list-unstyled team-list">
 			<h6 class="col-12 text-subtitle"><?= $term->name; ?></h6>
 		
 
-		<?php $members = get_posts(array('post_type'=>'team', 'team-level'=>$term->ID, 'post_status'=>'publish'));
+		<?php $members = get_posts(array('post_type'=>'team', 'team-level'=>$term->name, 'post_status'=>'publish'));
 
 			if($members):
 

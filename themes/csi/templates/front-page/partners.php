@@ -18,10 +18,12 @@
 
 	<div class="col-12 col-lg-10 offset-lg-1 bg-white p-2 mt-4 mb-md--4 text-center featured-partners-list">
 		<?php if($partners = get_sub_field('partners')): ?>
-			<div class="row">
+			<div class="w-100 text-center">
 			<?php foreach($partners as $partner): ?>
-				<div class="col featured-partners-partner">
+				<div class="d-inline-block pb-2 mx-1 featured-partners-partner">
+					<?= ($partner['link'] ? '<a href="'.$partner['link'].'">' : ''); ?>
 					<img src="<?= $partner['logo']['sizes']['large'] ?>" alt="" class="img-fluid">
+					<?= ($partner['link'] ? '</a>' : ''); ?>
 				</div>
 			<?php endforeach; ?>
 			</div>

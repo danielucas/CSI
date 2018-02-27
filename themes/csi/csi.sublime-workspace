@@ -284,45 +284,28 @@
 	"buffers":
 	[
 		{
-			"file": "templates/front-page/highlights.php",
+			"file": "templates/content/two_column_text_with_image.php",
 			"settings":
 			{
-				"buffer_size": 713,
+				"buffer_size": 1046,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/front-page/donate.php",
+			"file": "templates/content-project.php",
 			"settings":
 			{
-				"buffer_size": 548,
+				"buffer_size": 1140,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scripts/functions/map.js",
+			"file": "templates/content/team-list.php",
 			"settings":
 			{
-				"buffer_size": 4125,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/plugins/soil/modules/jquery-cdn.php",
-			"settings":
-			{
-				"buffer_size": 1330,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/styles/layouts/_backdrops.scss",
-			"settings":
-			{
-				"buffer_size": 952,
+				"buffer_size": 852,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -414,25 +397,36 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/plugins",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/plugins/soil",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/plugins/soil/modules"
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/content"
 	],
 	"file_history":
 	[
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_header-brand.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/header.php",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_mobile-nav-trigger.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_mobile-nav.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_mobile-nav-open.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/mobile-menu.js",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_backdrops.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/highlights.php",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/donate.php",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/map.js",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-highlights.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/page-content-stats.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/slideshow.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/text_with_stats.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-stat.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-slideshow.scss",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_backdrops.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/map.php",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/map.js",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/partners.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi/get-all-locations.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-map.scss",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/_header-brand.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi/functions.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/functions.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/footer/locations-map.php",
@@ -448,7 +442,6 @@
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo.svg",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/sliders-featured.js",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/sliders-text.js",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/header.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/components/_body.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo-full.svg",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/base.php",
@@ -541,13 +534,7 @@
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-checkout.php",
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/review-order.php",
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-billing.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-shipping.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/template-about.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/templates/content-page-coc.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/assets/styles/layouts/page-coc.scss",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/assets/styles/common/_custom-fonts.scss",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/lib/_woo/hooks.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/plugins/woocommerce/includes/wc-template-hooks.php"
+		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-shipping.php"
 	],
 	"find":
 	{
@@ -603,29 +590,28 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/front-page/highlights.php",
+					"file": "templates/content/two_column_text_with_image.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 1046,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								713,
-								713
+								401,
+								401
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -634,31 +620,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/front-page/donate.php",
+					"file": "templates/content-project.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 548,
+						"buffer_size": 1140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								548,
-								548
+								298,
+								298
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -669,95 +655,32 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/scripts/functions/map.js",
+					"file": "templates/content/team-list.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4125,
+						"buffer_size": 852,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3557,
-								3557
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2464.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/plugins/soil/modules/jquery-cdn.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1330,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								83,
+								83
 							]
 						],
 						"settings":
 						{
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 50.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/styles/layouts/_backdrops.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								776,
-								776
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 203.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1185,9 +1108,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "jung",
+		"last_filter": "junga",
 		"selected_items":
 		[
+			[
+				"junga",
+				"~/Work/Jungalow/Website/jungalow.sublime-project"
+			],
+			[
+				"pc",
+				"~/Work/Problem Children/Wordpress/app/public/wp-content/themes/pc/pc.sublime-workspace"
+			],
+			[
+				"nous",
+				"~/Work/Nous Tous/Website/app/public/wp-content/noustous.sublime-project"
+			],
 			[
 				"jung",
 				"~/Work/Jungalow/Website/jungalow.sublime-project"
