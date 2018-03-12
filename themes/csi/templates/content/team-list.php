@@ -18,7 +18,10 @@ if($teamTerms):
 
 				<li class="col-6 col-md-4 team-member" data-member-id="<?= $member->ID; ?>">
 					<div class="pb-100 mb-12 team-member-img" style="background-image: url(<?= get_the_post_thumbnail_url($member->ID, 'medium', array('class'=>'img-fluid') ); ?>)"></div>
-					<p><strong><?= $member->post_title; ?></strong><br><?= get_field('member_role', $member->ID); ?></p>
+					<p class="team-member-title"><strong><?= $member->post_title; ?></strong><br><?= get_field('member_role', $member->ID); ?></p>
+					<div class="d-none team-member-bio">
+						<?= wpautop($member->post_content); ?>
+					</div>
 				</li>
 
 				<?php endforeach;

@@ -11,7 +11,8 @@
     "include-media": "^1.4.8",
     "matchHeight": "^0.7.0",
     "lazyloadxt": "^1.0.5",
-    "isotope": "^3.0.1"
+    "isotope": "^3.0.1",
+    "sticky-kit": "^1.1.2"
   },
   "overrides": {
     "isotope": {
