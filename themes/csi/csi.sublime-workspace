@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"team",
+				"teamInfo"
+			],
+			[
 				"high",
 				"highlight"
 			],
@@ -34,10 +38,6 @@
 			[
 				"info",
 				"infowindow"
-			],
-			[
-				"team",
-				"teamMembers"
 			],
 			[
 				"opening",
@@ -284,27 +284,53 @@
 	"buffers":
 	[
 		{
-			"file": "front-page.php",
+			"file": "templates/content/team-list.php",
 			"settings":
 			{
-				"buffer_size": 392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/front-page/partners.php",
-			"settings":
-			{
-				"buffer_size": 1195,
+				"buffer_size": 977,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/styles/layouts/featured-content-partners.scss",
+			"file": "templates/content/our_team.php",
 			"settings":
 			{
-				"buffer_size": 117,
+				"buffer_size": 493,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scripts/functions/team.js",
+			"settings":
+			{
+				"buffer_size": 609,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/footer.php",
+			"settings":
+			{
+				"buffer_size": 696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/forms/contact-form.php",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/styles/layouts/page-content-team.scss",
+			"settings":
+			{
+				"buffer_size": 365,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -398,16 +424,16 @@
 	[
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page"
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions"
 	],
 	"file_history":
 	[
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/bower.json",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/package.json",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-partners.scss",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/front-page.php",
+		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/partners.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/content/two_column_text_with_image.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/content-project.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/content/team-list.php",
@@ -428,7 +454,6 @@
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-stat.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-slideshow.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/map.php",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/templates/front-page/partners.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi/get-all-locations.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/featured-content-map.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lib/_custom/_csi/functions.php",
@@ -441,7 +466,6 @@
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/page-content.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/project-single-header.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/common/_variables/type.scss",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/front-page.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/layouts/home-content-slideshow.scss",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo.svg",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/scripts/functions/sliders-featured.js",
@@ -520,8 +544,6 @@
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/template-custom.php",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/lift-off.sh",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/styles/main.scss",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/bower.json",
-		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/package.json",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo-icon-orange.svg",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo-icon-purple.svg",
 		"/Users/daniel/Work/Child Steps International/Website/app/public/wp-content/themes/csi/assets/images/_svg/logo-icon-blue.svg",
@@ -534,8 +556,7 @@
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/lib/custom-tax.php",
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/assets/scripts/functions/checkout.js",
 		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-checkout.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/review-order.php",
-		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/form-billing.php"
+		"/Users/daniel/Work/Nous Tous/Website/app/public/wp-content/themes/noustous/woocommerce/checkout/review-order.php"
 	],
 	"find":
 	{
@@ -591,53 +612,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "front-page.php",
+					"file": "templates/content/team-list.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 977,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/front-page/partners.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1195,
-								1195
+								825,
+								825
 							]
 						],
 						"settings":
@@ -650,38 +642,157 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "assets/styles/layouts/featured-content-partners.scss",
+					"buffer": 1,
+					"file": "templates/content/our_team.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 117,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								90,
-								90
+								324,
+								324
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/scripts/functions/team.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
 							"open_with_edit": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/forms/contact-form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								149
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/styles/layouts/page-content-team.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -736,6 +847,22 @@
 		"selected_items":
 		[
 			[
+				"contact-form",
+				"csi/templates/forms/contact-form.php"
+			],
+			[
+				"footer",
+				"csi/templates/footer.php"
+			],
+			[
+				"bower",
+				"csi/bower.json"
+			],
+			[
+				"pack",
+				"csi/package.json"
+			],
+			[
 				"front",
 				"csi/front-page.php"
 			],
@@ -774,10 +901,6 @@
 			[
 				"custom-",
 				"lib/custom-tax.php"
-			],
-			[
-				"footer",
-				"templates/footer.php"
 			],
 			[
 				"_bod",
@@ -874,10 +997,6 @@
 			[
 				"single-pr",
 				"plugins/woocommerce/templates/single-product.php"
-			],
-			[
-				"bower",
-				"themes/noustous/bower.json"
 			],
 			[
 				"head",
@@ -1113,9 +1232,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "maison",
+		"last_filter": "woo",
 		"selected_items":
 		[
+			[
+				"woo",
+				"~/Work/Woodbury/app/public/wp-content/themes/woodbury/woodbury.sublime-project"
+			],
+			[
+				"prob",
+				"~/Work/Problem Children/Wordpress/app/public/wp-content/themes/pc/pc.sublime-workspace"
+			],
 			[
 				"maison",
 				"~/Work/Maison Ray/Website/app/public/wp-content/themes/maisonray.sublime-project"
@@ -1167,10 +1294,6 @@
 			[
 				"",
 				"~/Work/charlotte-stone/app/public/wp-content/themes/charlottestone/charlottestone.sublime-project"
-			],
-			[
-				"woo",
-				"~/Work/Woodbury/app/public/wp-content/themes/woodbury/woodbury.sublime-workspace"
 			],
 			[
 				"wood",
