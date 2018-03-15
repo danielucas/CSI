@@ -7,7 +7,7 @@
 	<div class="col-12 col-sm-6 mb-3 mb-md-1 col-lg-4 order-1 order-sm-2 our-team-text">
 		<div class="our-team-text-wrap">
 			<h6 class="text-subtitle"><?php the_sub_field('subtitle'); ?></h6>
-			<div class="team-description"><?php the_sub_field('description'); ?></div>
+			<div class="team-description pb-2"><?php the_sub_field('description'); ?></div>
 		</div>
 	</div>
 
